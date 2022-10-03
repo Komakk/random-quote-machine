@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.App {
+  $base-color: #61dafb;
+  
+  height: 100vh;
+  text-align: center;
+  background-color: $base-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .QuoteBox {
+    background-color: aliceblue;
+    width: 60vw;
+    padding: 10px 20px;
+    .text {
+      font-size: 2rem;
+      margin-bottom: 1vh;
+    }
+    .author {
+      font-style: italic;
+      text-align: right;
+      margin-bottom: 6vh;
+    }
+    .buttons {
+      height: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .button {
+        font-size: 1.5rem;
+        height: 50px;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        opacity: 1;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+      a {
+        padding: 10px;
+        margin: 10px;
+      }
+    }
+  }
+
+  
+}
+
+
+
