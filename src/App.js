@@ -69,7 +69,7 @@ function App() {
             <p className='author' id='author' style={{color: color}}>-{author}</p>
             <div className="buttons">
               <div>
-              <Link href="https://forum.freecodecamp.org/u/sitek94/summary">
+              <Link href="https://www.freecodecamp.org/komakk">
               <FaFreeCodeCamp />
               </Link>
               <Link href={twit} id='tweet-quote'>
